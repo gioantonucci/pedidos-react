@@ -1,0 +1,46 @@
+.form-pedidos {
+  padding: 16px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  label {
+    font-size: 20px;
+    color: #fff;
+  }
+  input,
+  select {
+    display: block;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+    color: #fff;
+    background-color: #496583;
+    font-size: 20px;
+    padding: 10px 16px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: 0.4s;
+  }
+
+  .buttons {
+    display: flex;
+
+    button {
+      width: 100%;
+      max-width: 300px;
+      background-color: #42b883;
+      padding: 16px;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 20px;
+      transition: 0.4s;
+
+      &:active {
+        background-color: #3b8070;
+      }
+    }
+  }
+}
